@@ -14,7 +14,7 @@ import time
 options = webdriver.EdgeOptions()
 driver = webdriver.Edge(options=options)
 
-#Acessar o link do Lemontech
+#Acessar o link do LearningRocks
 driver.get("https://azul.skore.io/login")
 driver.maximize_window()
 driver.implicitly_wait(2)
